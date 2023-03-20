@@ -105,35 +105,35 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 HELP_MSG = "Click the button below to get help menu in your pm hihi~"
-START_MSG = "*Hie Onichwannnn~ UwU* I am well and alive ;)"
+START_MSG = "*Hie Bsdk~ UwU* I am well and alive ;)"
 
-HELP_IMG = "https://telegra.ph/file/9dfcdab5244a61b323210.jpg"
-START_IMG = "https://telegra.ph/file/eb8617465e7a62650f862.jpg"
+HELP_IMG = "https://graph.org/file/04e7a29075701e7a68ca5.jpg"
+START_IMG = "https://graph.org/file/04e7a29075701e7a68ca5.jpg"
 
 PM_START_TEXT = f"""
   ⫸ [{BOT_NAME}](https://telegra.ph/file/7ba6536e75495cdc6ceb1.jpg) ⫷
 Konnichiwa, I am {BOT_NAME}
  
-I am an Anime themed group management bot with some fun extras ;)
+I am an group management bot with some fun extras ;)
 
 Want to see my powers? hehe, use /help or commands button below."""
 
 
 GROUP_START_TEXT = """
-I'm awake already Onichan!
+I'm awake already Bc!
 Haven't slept since: {} 
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="Summon Meow ➕", url=f"t.me/{BOT_USERNAME}?startgroup=true"
+            text="Summon Me ➕", url=f"t.me/{BOT_USERNAME}?startgroup=true"
         )
     ],
     [
         InlineKeyboardButton(text="📓 Commands", callback_data="help_back"),
         InlineKeyboardButton(
-            text="Source 🌐", url="https://github.com/ArshCypherZ/HWBot"
+            text="Source 🌐", url="https://t.me/saikostar_xd"
         ),
     ],
     [
@@ -158,7 +158,7 @@ HELP_STRINGS = """
 • You can also navigate between the help menu by clicking on left-right arrow.   
 """
 
-DONATE_STRING = """PM @Arsshh for donating :)"""
+DONATE_STRING = """PM @SexyAaditya for donating :)"""
 
 
 IMPORTED = {}
@@ -293,7 +293,7 @@ def start(update: Update, context: CallbackContext):
                     [
                         InlineKeyboardButton(
                             text="Source 🌐",
-                            url="https://github.com/ArshCypherZ/HWBOT",
+                            url="https://t.me/saikostar_xd",
                         )
                     ],
                 ]
